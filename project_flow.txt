@@ -17,3 +17,9 @@
    Because initially we are tracking data folder with git now we are removing from tracking and let dvc to handle it 
 
 9. Again "dvc add data/" creates data.dvc 
+
+10. Now run "dvc commit" and "dvc push" until before S3 our remote repo is empty now we are pushing the files from data to S3
+
+11. Now run git commit-push to mark this stage as first version of data
+
+12. Now make changes to code.py to append a new row in data check changes using "dvc status"
