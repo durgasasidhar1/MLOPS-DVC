@@ -9,3 +9,11 @@
 5. Now we do dvc init (creates .dvcignore, .dvc)
 
 6. Now create folder for storing our data versions mkdir s3 (s3 bucket)
+
+7. Now we do "dvc remote add -d myremote S3"
+
+8. Next  "dvc add data/" This command keeps track of our data like git does 
+   Now it will ask to do "git rm --cached data" and "git commit -m "stop tracking data"
+   Because initially we are tracking data folder with git now we are removing from tracking and let dvc to handle it 
+
+9. Again "dvc add data/" creates data.dvc 
