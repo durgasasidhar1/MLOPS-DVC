@@ -23,3 +23,5 @@
 11. Now run git commit-push to mark this stage as first version of data
 
 12. Now make changes to code.py to append a new row in data check changes using "dvc status"
+
+13. Again "dvc commit - push"
